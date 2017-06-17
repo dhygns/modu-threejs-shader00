@@ -4,6 +4,8 @@ Attribute / Uniform / Varying을 사용하지 않고(기본 vertex의 위치만 
 FragmentShader와 VertexShader의 구조를 알수 있으며,
 각 Shader에서 데이터가 최종적으로 출력되는 변수(Output 변수)인 gl_Position과 gl_FragColor를 이해 할 수 있도록 구현하였습니다.
 
+./src/display/Display.js에서 Shader코드를 수정하는 경우 출력되는 형태가 바뀔 수 있습니다.
+
 
 ## 선행  요소
 - ``git(2.14.0.windows.1 혹은 이에 상응하는 osx버전)``에 대한 이해 및 설치
