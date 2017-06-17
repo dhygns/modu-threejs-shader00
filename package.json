@@ -1,0 +1,27 @@
+{
+  "name": "modu-threejs-shader00",
+  "version": "1.0.0",
+  "description": "Nature Of CODE에서 소개된 Vector의 특성을 속도와 가속도를 설정하여 움직임을 표현한 예제입니다.",
+  "main": "app.js",
+  "scripts": {
+    "build": "start webpack --watch ./src/index.js ./build/index.bundle.js",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhygns/modu-threejs-shader00.git"
+  },
+  "author": "donghyeon kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhygns/modu-threejs-shader00/issues"
+  },
+  "homepage": "https://github.com/dhygns/modu-threejs-shader00#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "n3d-threejs": "^76.0.0",
+    "webpack": "^2.6.1"
+  }
+}
