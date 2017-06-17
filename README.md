@@ -1,8 +1,11 @@
-# modu-threejs-vector
-Nature Of CODE에서 소개된 Vector의 특성을 속도와 가속도를 설정하여 움직임을 표현한 예제입니다.
+# modu-threejs-Shader
+기본적인 Threejs 환경에서의 Shader 예제입니다.
+Attribute / Uniform / Varying을 사용하지 않고(기본 vertex의 위치만 사용) 단순히 색깔만 설정하여 렌더링하였습니다.
+FragmentShader와 VertexShader의 구조를 알수 있으며,
+각 Shader에서 데이터가 최종적으로 출력되는 변수(Output 변수)인 gl_Position과 gl_FragColor를 이해 할 수 있도록 구현하였습니다.
 
 
-## 필요요소
+## 선행  요소
 - ``git(2.14.0.windows.1 혹은 이에 상응하는 osx버전)``에 대한 이해 및 설치
 - ``nodejs(4.2.4^)``에 대한 이해 및 설치
 - ``npm(2.14.12^)``에 대한 이해 및 설치
@@ -16,11 +19,11 @@ Nature Of CODE에서 소개된 Vector의 특성을 속도와 가속도를 설정
 ## 설치
 - step1. cmd 혹은 terminal에서 원하는 경로로 이동한 뒤 아래와 같이 입력
 ```
-git clone https://github.com/dhygns/modu-threejs-vector.git
+git clone https://github.com/dhygns/modu-threejs-shader00.git
 ```
 - step2. 이후 생성된 폴더로 이동
 ```
-cd modu-threejs-vector
+cd modu-threejs-shader00
 ```
 - step3. npm을 사용하여 필요한 module들을 설치합니다.
 ```
@@ -28,14 +31,14 @@ npm install
 ```
 
 ## 빌드
-- step1. "*modu-threejs-vector*" 폴더에서 아래의 명령어를 통해 빌드합니다.
+- step1. "*modu-threejs-shader00*" 폴더에서 아래의 명령어를 통해 빌드합니다.
 ```
 npm run build
 ```
 해당 명령어 실행후 자동으로 빌드됩니다. 다른 명령어를 실행하고 싶으신 경우는 ```ctrl + c```를 눌러 빠져 나간 후 진행하거나, 새 창을 켜서 실행시키면 됩니다.
 
 ## 실행
-- step1. "*modu-threejs-vector*" 폴더에서 아래의 명령어를 통해 서버를 실행시킵니다
+- step1. "*modu-threejs-shader00*" 폴더에서 아래의 명령어를 통해 서버를 실행시킵니다
 ```
 npm run start
 ```
